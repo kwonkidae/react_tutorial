@@ -12,6 +12,7 @@ import NameForm from './NameForm';
 import EssayForm from './Form/EssayForm';
 import FlavorForm from './Form/FlavorForm';
 import ReservationForm from './Form/Reservation';
+import { BoilingVerdict, Calculator } from './liftStateUp';
 const messages = ['React', 'Re: React', 'Re:Re React'];
 const numbers = [1,2,3,4,5];
 const posts = [
@@ -23,10 +24,14 @@ const posts = [
 export default function App(props) {
   return (
     <div>
+      <BoilingVerdict />
+      <Calculator />
+      {/*
       <ReservationForm />
       <FlavorForm />
       <NameForm />
       <EssayForm />
+      */}
       {/* <Clock />
       <Toggle />
       <LoginControl isLoggedIn={false} />

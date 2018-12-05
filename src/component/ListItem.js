@@ -7,7 +7,7 @@ function ListItem(props) {
   //     {value}
   //   </li>
   // );
-  return <li>{props.value}</li>
+  return <li>{props.value}</li>;
 }
 
 function NumberList(props) {
