@@ -30,53 +30,53 @@ const root = document.getElementById('root');
 // const name = 'Josh Prerez';
 // const element = <h1>Hello, {name}</h1>;
 
-function formatName(user) {
-  return user.firstName + ' ' + user.lastName;
-}
+// function formatName(user) {
+//   return user.firstName + ' ' + user.lastName;
+// }
 
-const user = {
-  firstName: 'Harper',
-  lastName: 'Perez'
-};
+// const user = {
+//   firstName: 'Harper',
+//   lastName: 'Perez'
+// };
 
-const element = (
-  <h1>
-    Hello, {formatName(user)}!
-  </h1>
-);
+// const element = (
+//   <h1>
+//     Hello, {formatName(user)}!
+//   </h1>
+// );
 
-function getGreeting(user) {
-  if (user) {
-    return <h1>Hello, {formatName(user)}!</h1>
-  }
-  return <h1>Hello, Stranger.</h1>
-}
+// function getGreeting(user) {
+//   if (user) {
+//     return <h1>Hello, {formatName(user)}!</h1>
+//   }
+//   return <h1>Hello, Stranger.</h1>
+// }
 
-let ele = (
-  <h1 className="greeting">
-    Hello, world
-  </h1>
-)
+// let ele = (
+//   <h1 className="greeting">
+//     Hello, world
+//   </h1>
+// )
 
-ele = React.createElement(
-  'h1',
-  {className: 'greeting'},
-  'Hello, world!!!'
-);
+// ele = React.createElement(
+//   'h1',
+//   {className: 'greeting'},
+//   'Hello, world!!!'
+// );
 
-ele = {
-  type: 'h1',
-  props: {
-    className: 'greeting',
-    children: 'Hello, world!!!!'
-  }
-};
+// ele = {
+//   type: 'h1',
+//   props: {
+//     className: 'greeting',
+//     children: 'Hello, world!!!!'
+//   }
+// };
 
-console.log({...user})
+// console.log({...user})
 
-const testUser = {
-  name: 'kwon'
-}
+// const testUser = {
+//   name: 'kwon'
+// }
 
 ReactDOM.render(
   <App />,
@@ -89,3 +89,4 @@ ReactDOM.render(
 // }
 
 // setInterval(tick, 1000);
+

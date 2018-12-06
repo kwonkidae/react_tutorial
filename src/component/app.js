@@ -29,6 +29,7 @@ export default function App(props) {
       <FlavorForm />
       <NameForm />
       <EssayForm />
+      */}
       {/* <Clock />
       <Toggle />
       <LoginControl isLoggedIn={false} />
