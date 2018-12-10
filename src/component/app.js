@@ -12,7 +12,8 @@ import NameForm from './NameForm';
 import EssayForm from './Form/EssayForm';
 import FlavorForm from './Form/FlavorForm';
 import ReservationForm from './Form/Reservation';
-import Calculator from './Calculator';
+// import Calculator from './Calculator';
+import { Calculator } from './liftStateUp'
 const messages = ['React', 'Re: React', 'Re:Re React'];
 const numbers = [1,2,3,4,5];
 const posts = [
@@ -25,11 +26,10 @@ export default function App(props) {
   return (
     <div>
       <Calculator />
-      <ReservationForm />
+      {/* <ReservationForm />
       <FlavorForm />
       <NameForm />
-      <EssayForm />
-      */}
+      <EssayForm /> */}
       {/* <Clock />
       <Toggle />
       <LoginControl isLoggedIn={false} />
