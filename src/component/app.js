@@ -21,11 +21,14 @@ const posts = [
   {id: 2, title: 'Installation', content: 'You can install React from npm.'}
 ];
 
+import Forwaring from '../advanced/useButton';
+
 
 export default function App(props) {
   return (
     <div>
-      <Calculator />
+      <Forwaring />
+      {/* <Calculator /> */}
       {/* <ReservationForm />
       <FlavorForm />
       <NameForm />
