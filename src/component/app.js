@@ -22,12 +22,15 @@ const posts = [
 ];
 
 import Forwaring from '../advanced/useButton';
-
+import ContextTheme from '../advanced/contextApi';
+import ThemeButton from '../advanced/theme-app';
 
 export default function App(props) {
   return (
     <div>
-      <Forwaring />
+      <ThemeButton />
+      {/* <ContextTheme /> */}
+      {/* <Forwaring /> */}
       {/* <Calculator /> */}
       {/* <ReservationForm />
       <FlavorForm />
